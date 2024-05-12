@@ -124,16 +124,17 @@ function showgiohang1(){
     return $ttgh;
 }
 
-function getOrdersByUser($user){
-    $conn = ketnoidb();
-    $sql = "SELECT * FROM bill WHERE name = :user";
+function getOrdersByUser($email){
+    $conn = ketnoiDB(); // Correct the function name
+    $sql = "SELECT * FROM bill WHERE email = :email"; // Correct SQL syntax
     $stmt = $conn->prepare($sql);
-    $stmt->bindParam(':user', $user, PDO::PARAM_STR);
+    $stmt->bindParam(':email', $email, PDO::PARAM_STR);
     $stmt->execute();
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
     $conn = null;
     return $result;
 }
+
 
 
 

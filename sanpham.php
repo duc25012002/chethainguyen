@@ -80,8 +80,8 @@ padding: 0px 10px 0px 10px;
                             <th>Enable</th>
                             <th>Ghi Chú</th>
                             <th>Điểm Nổi Bật</th>
-                            <th> Điều Kiện Chăm Sóc </th>
-                            <th>Cách Chăm Sóc</th>
+                            <th>Nguyên Liệu</th>
+                            <th>Cách Pha Chế</th>
                             <th> Xuất Xứ</th>
                             <th>Ngày Đăng</th>
                             <th>Kích Thước</th>
@@ -143,10 +143,10 @@ padding: 0px 10px 0px 10px;
                                     <?PHP echo $row["diemnoibat"] ?>
                                 </td>
                                 <td>
-                                    <?PHP echo $row["dieukienchamsoc"] ?>
+                                    <?PHP echo $row["nguyenlieu"] ?>
                                 </td>
                                 <td>
-                                    <?PHP echo $row["cachchamsoc"] ?>
+                                    <?PHP echo $row["cachpha"] ?>
                                 </td>
                                 <td>
                                     <?PHP echo $row["xuatxu"] ?>

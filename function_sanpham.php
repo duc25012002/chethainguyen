@@ -14,8 +14,8 @@ class sanpham extends ketnoi{
     public $enable;
     public $ghichu;
     public $diemnoibat;
-    public $dieukienchamsoc;
-    public $cachchamsoc;
+    public $nguyenlieu;
+    public $cachpha;
     public $xuatxu;
     public $ngaydang;
     public $kichthuoc;
@@ -43,8 +43,8 @@ class sanpham extends ketnoi{
     
     }
     function themsanpham(){
-        $sql = "INSERT INTO `sanpham1`(`masp`, `nhom_id`, `tensp`, `mota`, `dongiacu`, `dongiamoi`,  `enable`, `ghichu`, `diemnoibat`, `dieukienchamsoc`, `cachchamsoc`, `xuatxu`, `ngaydang`, `kichthuoc`, `nguoidang`, `giongloai`)
-    VALUES ('".$this->masanpham."','".$this->nhomid."','".$this->tensanpham."','".$this->mota."','".$this->dongiacu."','".$this->dongiamoi."', '".$this->enable."','".$this->ghichu."','".$this->diemnoibat."', '".$this->dieukienchamsoc."','".$this->cachchamsoc."','".$this->xuatxu."', '".$this->ngaydang."','".$this->kichthuoc."','".$this->nguoidang."', '".$this->giongloai."')";
+        $sql = "INSERT INTO `sanpham1`(`masp`, `nhom_id`, `tensp`, `mota`, `dongiacu`, `dongiamoi`,  `enable`, `ghichu`, `diemnoibat`, `nguyenlieu`, `cachpha`, `xuatxu`, `ngaydang`, `kichthuoc`, `nguoidang`, `giongloai`)
+    VALUES ('".$this->masanpham."','".$this->nhomid."','".$this->tensanpham."','".$this->mota."','".$this->dongiacu."','".$this->dongiamoi."', '".$this->enable."','".$this->ghichu."','".$this->diemnoibat."', '".$this->nguyenlieu."','".$this->cachpha."','".$this->xuatxu."', '".$this->ngaydang."','".$this->kichthuoc."','".$this->nguoidang."', '".$this->giongloai."')";
     $result = mysqli_query($this->conn, $sql);
    
     $target_dir1 = "upload/";
@@ -103,8 +103,8 @@ if(move_uploaded_file($_FILES["img1"]["tmp_name"], $targer_file1)){
         `enable`='".$this->enable."',
         `ghichu`='".$this->ghichu."' ,
         `diemnoibat`='".$this->diemnoibat."',
-        `dieukienchamsoc`='".$this->dieukienchamsoc."',
-        `cachchamsoc`='".$this->cachchamsoc."',
+        `nguyenlieu`='".$this->nguyenlieu."',
+        `cachpha`='".$this->cachpha."',
         `xuatxu`='".$this->xuatxu."',
         `ngaydang`='".$this->ngaydang."',
         `kichthuoc`='".$this->kichthuoc."',

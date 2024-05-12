@@ -1,6 +1,7 @@
 <?php include "headernguoidung.php";?>
 <?php
     include "thuvien.php";
+    include "function_taikhoan.php";
 
     if (!isset($_SESSION['user'])) {
         // Kiểm tra xem người dùng đã đăng nhập chưa, nếu chưa thì chuyển hướng hoặc xử lý theo yêu cầu của bạn.
@@ -9,7 +10,11 @@
     }
 
     $user = $_SESSION['user'];
-    $orders = getOrdersByUser($user);
+    $taikhoan = new taikhoan();
+    $result = $taikhoan->hienthiid($user);
+    $row = mysqli_fetch_array($result);
+    $email = $row['email'];
+    $orders = getOrdersByUser($email);
     ?>
 
     <style>

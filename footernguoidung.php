@@ -1,9 +1,9 @@
 <style>
     .footer__img {
         text-decoration: none;
-        width: 280px;
+        width: 160px;
         color: transparent;
-        height: 120px;
+        height: 140px;
     }
     .footer {
         display: flex;
@@ -22,11 +22,11 @@
                 <div class="footer__menu">
                     <div class="row">
                         <div class="col l-5">
-                            <img src="upload/logo__footer2.jpg" alt="" class="footer__img">
+                            <img src="upload/logo-footer.png" alt="" class="footer__img">
                             <div class="footer__info">
-                                <p class="footer__info-item">Địa chỉ: sao Đỏ,Chí Linh,hải Dương</p>
-                                <p class="footer__info-item">Điện thoại: 0123 456 789</p>
-                                <p class="footer__info-item">Email: vuthibac11062003@gmail.com</p>
+                                <p class="footer__info-item">Địa chỉ: Phú Bình, Thái Nguyên</p>
+                                <p class="footer__info-item">Điện thoại: 0793 157 708</p>
+                                <p class="footer__info-item">Email: haviettrinh@gmail.com</p>
                             </div>
                             <div class="footer__social">
                                 <a href="" class="footer__social-link ">
@@ -67,7 +67,7 @@
                                 <li class="footer__items">Miễn Phí Vận Chuyển</li>
                                 <li class="footer__items">Hỗ Trợ 24/7</li>
                                 <li class="footer__items">Hoàn Tiền 100%</li>
-                                <li class="footer__items">thanh Toán</li>
+                                <li class="footer__items">Thanh Toán</li>
                             </ul>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
         </div>
 
         <div class="footer__copyright">
-            <span class="footer__copyright-text">© Bản quyền thuộc về Vũ Thị Bắc</span>
+            <span class="footer__copyright-text">© Bản quyền thuộc về Chè Thái Nguyên</span>
         </div>
 
     </div>

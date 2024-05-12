@@ -94,7 +94,8 @@ if (isset($_GET['act']) && ($_GET['act'] != "")) {
         body {
          
             background-image: url('upload/anh9.jpg') ;
-            
+            background-repeat: no-repeat;
+            background-size: 100%;
         }
       
 

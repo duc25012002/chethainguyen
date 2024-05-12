@@ -24,8 +24,8 @@
         $sanpham->enable = isset($_POST['enable']) ? $_POST['enable'] : 0;
         $sanpham->ghichu = isset($_POST['ghichu']) ? $_POST['ghichu'] : '';
         $sanpham->diemnoibat = isset($_POST['diemnoibat']) ? $_POST['diemnoibat'] : '';
-        $sanpham->dieukienchamsoc = isset($_POST['dieukienchamsoc']) ? $_POST['dieukienchamsoc'] : '';
-        $sanpham->cachchamsoc = isset($_POST['cachchamsoc']) ? $_POST['cachchamsoc'] : '';
+        $sanpham->nguyenlieu = isset($_POST['nguyenlieu']) ? $_POST['nguyenlieu'] : '';
+        $sanpham->cachpha = isset($_POST['cachpha']) ? $_POST['cachpha'] : '';
         $sanpham->xuatxu= isset($_POST['xuatxu']) ? $_POST['xuatxu'] : '';
         $sanpham->ngaydang = isset($_POST['ngaydang']) ? $_POST['ngaydang'] : '';
         $sanpham->kichthuoc = isset($_POST['kichthuoc']) ? $_POST['kichthuoc'] : '';
@@ -108,12 +108,12 @@
                 <textarea  class="form-control"  rows="3" name="diemnoibat"><?php  echo $row['diemnoibat'] ?> </textarea>
             </div>
             <div class="form-group">
-                <label for="mota">Điều Kiện Chăm Sóc:</label>
-                <textarea  class="form-control"  rows="3" name="dieukienchamsoc"><?php  echo $row['dieukienchamsoc'] ?> </textarea>
+                <label for="mota">Nguyên Liệu:</label>
+                <textarea  class="form-control"  rows="3" name="nguyenlieu"><?php  echo $row['nguyenlieu'] ?> </textarea>
             </div>
             <div class="form-group">
-                <label for="mota">Cách Chăm Sóc:</label>
-                <textarea  class="form-control"  rows="3" name="cachchamsoc"><?php  echo $row['cachchamsoc'] ?> </textarea>
+                <label for="mota">Nguyên Liệu:</label>
+                <textarea  class="form-control"  rows="3" name="cachpha"><?php  echo $row['cachpha'] ?> </textarea>
             </div>
             <div class="form-group">
                 <label for="tensp">Xuất Xứ:</label>

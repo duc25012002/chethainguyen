@@ -207,7 +207,7 @@ min-width: 140px;
 .content-product__right-more {
     background-color: #eaf0eb;
     border: 1px solid #35a746;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
 }
 .content-product__select-icon {
@@ -424,13 +424,13 @@ min-width: 140px;
                         <b>Mô Tả:</b>  <?php echo $row["mota"] ?>
                         </p>
                         <p class="content__describe-msg">
-                            <b>Chế độ chăm sóc:</b>  <?php echo $row["dieukienchamsoc"] ?>
+                            <b>Nguyên Liệu:</b>  <?php echo $row["nguyenlieu"] ?>
                         </p>
                         <p class="content__describe-msg">
                             <b>Đặc điểm:</b>  <?php echo $row["diemnoibat"] ?>
                         </p>
                         <p class="content__describe-msg">
-                            <b>Cách chăm sóc:</b>  <?php echo $row["cachchamsoc"] ?>
+                            <b>Cách Pha:</b>  <?php echo $row["cachpha"] ?>
                         </p>
                         <p class="content__describe-msg">
                         <b>Giống Loài:</b>  <?php echo $row["giongloai"] ?>

@@ -50,9 +50,9 @@
         }
         body {
       
-            background-image: url('upload/anh9.jpg'); 
-            background-image:no-repeat ;
-            /* cần thêm thì bạn tự thêm link bên trên nhé */
+            background-image: url('upload/anh9.jpg') ;
+            background-repeat: no-repeat;
+            background-size: 100%;
         }
         .relog-form__btn-link {
             width: 100%;

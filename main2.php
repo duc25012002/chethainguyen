@@ -25,7 +25,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Name Is Chóa Pắc</title>
+    <title>Trà Thái Nguyên</title>
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -118,7 +118,7 @@
                        
                            
                             <div class="col l-4-9">
-                                <img src="upload/anh4.jpg" alt="" class="container-scene__img">
+                                <img src="upload/bg1.jpg" alt="" class="container-scene__img">
                             </div>
                              <?php while ($row= mysqli_fetch_assoc($result)) { ?>
                             <div class="col l-2-4">
@@ -140,8 +140,8 @@
                                     
                                    <a class="container-product__item-text" onclick="window.location.href='chitiet.php?masp=<?php echo $row["masp"] ?>';"><?php echo $row["tensp"] ?></a>
                                     <div class="container-product__item-price">
-                                        <p class="container-product__price-old"><?php echo $row["dongiacu"] ?> 000 đ</p>
-                                        <p class="container-product__price-new"><?php echo $row["dongiamoi"] ?> 000 đ</p>
+                                        <p class="container-product__price-old"><?php echo number_format($row["dongiacu"]) ?> 000 VNĐ</p>
+                                        <p class="container-product__price-new"><?php echo number_format($row["dongiamoi"]) ?> 000 VNĐ</p>
                                     </div>    
                                 </div>
                              </div>

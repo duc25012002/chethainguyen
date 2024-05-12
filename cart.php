@@ -1,6 +1,12 @@
 <?php include "headernguoidung.php";?>
 <?php
    include "thuvien.php";
+   include "function_taikhoan.php";
+
+    $user = $_SESSION['user'];
+    $taikhoan = new taikhoan();
+    $result = $taikhoan->hienthiid($user);
+    $row = mysqli_fetch_array($result);
     if(!isset($_SESSION['giohang'])) $_SESSION['giohang']=[];
     // Xóa tất cả
     if(isset($_GET['delcart'])&&($_GET['delcart']==1)) unset($_SESSION['giohang']);
@@ -229,7 +235,7 @@
                             </div>
                             <div class="checkout__input">
                                 <p>Email<span>*</span>
-                                <input type="text" name="email">
+                                <input type="text" name="email" value="<?= $row['email'] ?>">
                             </div>
                         </ul>
                          <button class="primary-btn" type="submit" name="dongydathang">Đặt Hàng</button>

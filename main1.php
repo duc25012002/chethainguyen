@@ -28,7 +28,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Name Is Chóa Pắc</title>
+    <title>Trà Thái Nguyên</title>
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -48,6 +48,7 @@
         border: 1px solid #ccc;
         position: relative;
         transition: box-shadow ease-in .2s;
+        border-radius: 10px;
     }
 
 .container-product__items:hover {
@@ -130,8 +131,8 @@
                     <div class="mySlides">
                       <img src="upload/anh6.jpg">
                       <div class="mySlides-info">
-                        <span class="mySlides-info__text">Welcome to North Shop</span>
-                        <h2 class="mySlides-info__title"><span class="mySlides-info__title-color">DIVERSITY</span> PLANTS AND FLOWERS <br> FOR YOU</h2>
+                        <span class="mySlides-info__text">Chào Mừng Đến Với Chè Thái Nguyên</span>
+                        <h2 class="mySlides-info__title"><span class="mySlides-info__title-color">ĐA DẠNG</span> LOẠI LÁ TRÀ <br> CHO BẠN</h2>
                         <a href="fullsp.php" class="mySlides-info__link">Xem Ngay</a>
                       </div>
 
@@ -140,8 +141,8 @@
                     <div class="mySlides">
                       <img src="upload/anh8.jpg">
                       <div class="mySlides-info">
-                        <span class="mySlides-info__text">Welcome to North Shop</span>
-                        <h2 class="mySlides-info__title"><span class="mySlides-info__title-color">DIVERSITY</span> PLANTS AND FLOWERS  <br> FOR YOU</h2>
+                        <span class="mySlides-info__text">Chào Mừng Đến Với Chè Thái Nguyên</span>
+                        <h2 class="mySlides-info__title"><span class="mySlides-info__title-color">ĐA DẠNG</span> LOẠI LÁ TRÀ  <br> CHO BẠN</h2>
                         <a href="fullsp.php" class="mySlides-info__link">Xem Ngay</a>
                       </div>
                     </div>
@@ -149,8 +150,8 @@
                     <div class="mySlides">
                       <img src="upload/anh9.jpg">
                       <div class="mySlides-info">
-                        <span class="mySlides-info__text">Welcome to North Shop</span>
-                        <h2 class="mySlides-info__title"><span class="mySlides-info__title-color">DIVERSITY</span> PLANTS AND FLOWERS   <br> FOR YOU</h2>
+                        <span class="mySlides-info__text">Chào Mừng Đến Với Chè Thái Nguyên</span>
+                        <h2 class="mySlides-info__title"><span class="mySlides-info__title-color">ĐA DẠNG</span> LOẠI LÁ TRÀ   <br> CHO BẠN</h2>
                         <a href="fullsp.php" class="mySlides-info__link">Xem Ngay</a>
                       </div>
                     </div>
@@ -246,8 +247,8 @@
                                     <a class="container-product__item-text" onclick="window.location.href='chitiet.php?masp=<?php echo $row["masp"] ?>';"><?php echo $row["tensp"] ?></a>
                                 </div>
                                 <div class="container-product__item-price">
-                                    <p class="container-product__price-old"><?php echo $row["dongiacu"] ?> 000 đ</p>
-                                    <p class="container-product__price-new"><?php echo $row["dongiamoi"] ?> 000 đ</p>
+                                    <p class="container-product__price-old"><?php echo number_format($row["dongiacu"]) ?> 000 VNĐ</p>
+                                    <p class="container-product__price-new"><?php echo number_format($row["dongiamoi"]) ?> 000 VNĐ</p>
                                 </div>    
                             </div>
                            
@@ -262,8 +263,8 @@
                         <div class="row">
                             <div class="col l-7-2">
                                 <div class="container-top__left">
-                                    <h3 class="container-top__left-heading">Top Những Loài Hoa , Loài Cây Được Yêu Thích Nhất</h3>
-                                    <p class="container-top__left-text">Hãy đi tìm loài cây mang lại tài lộc, may mắn cho gia chủ </p>
+                                    <h3 class="container-top__left-heading">Những Sản Phẩm Được Yêu Thích Nhất</h3>
+                                    <p class="container-top__left-text">Trải nghiệm xứ Trà, đậm đà bản sắc</p>
                                     <a href="fullsp.php" class="container-top__left-btn">Khám phá ngay</a>
                                 </div>
                             </div>

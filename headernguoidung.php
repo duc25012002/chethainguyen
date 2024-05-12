@@ -41,7 +41,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop bán Hoa Lá cành Của Pắc</title>
+    <title>Trà Thái Nguyên</title>
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/grid.css">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -208,7 +208,7 @@
 
                 <div class="header-center">
                     <a href="index.php" class="nav-center__logo">
-                        <img src="upload/logo3.jpg" alt="Logo web" class="nav-center__logo-img">
+                        <img src="upload/Tea +.svg" alt="Logo web" class="nav-center__logo-img">
                     </a>
                     <div class="nav-center__search">
                         <form action="timkiemsp.php" method="GET" >
@@ -226,7 +226,7 @@
                             <img src="upload/24h.jpg" alt="" class="nav-center__hotline-img">
                             <div class="nav-center__hotline-info">
                                 <span class="nav-center__hotline-info-title">Hotline</span>
-                                <span class="nav-center__hotline-info-num">0123 456 789</span>
+                                <span class="nav-center__hotline-info-num">0793 157 708</span>
                             </div>
                         </div>
                   
@@ -250,7 +250,6 @@
                             <li class="nav-bottom-items"><a href="index.php" class="nav-bottom-items__links">Trang chủ</a></li>
                             <li class="nav-bottom-items">
                                 <a href="" class="nav-bottom-items__links">Danh Mục Sản Phẩm</a> 
-                                <i class="nav-bottom-items-icon fa-solid fa-chevron-right"></i>
                                 <!-- Product item -->
                                 <div class="nav-bottom__items-product">
                                     
